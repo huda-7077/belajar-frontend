@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Selector</title>
+    <style>
+      /* universal selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* element selector */
+      h2 {
+        color: red;
+      }
+
+      /* id selector */
+      #avanza {
+        color: blue;
+      }
+
+      /* class selector */
+      .mobil {
+        color: purple !important;
+        /* !important untuk memaksa agar berubah sesuai dengan bagian yang diberi important */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>SELECTOR</h2>
+    <p id="avanza">Ini Avanza</p>
+    <p class="mobil">Ini Mobilio</p>
+    <p class="mobil" style="color: red">Ini Pajero</p>
+  </body>
+</html>
