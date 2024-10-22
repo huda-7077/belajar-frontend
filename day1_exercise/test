@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-2.css" />
+    <style>
+      .table-container {
+        max-height: 700px;
+        overflow-y: auto;
+        border: 1px solid #ccc; /* Optional: adds a border around the container */
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .image {
+        width: 50px; /* Adjust as necessary */
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TABLE -->
+    <div class="border table-container">
+      <table style="background-color: white" border="1">
+        <thead>
+          <tr>
+            <th class="no">No</th>
+            <th class="image">Image</th>
+            <th class="name">Name</th>
+            <th class="alias">Aliases</th>
+            <th class="group">Group</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="no">1</td>
+            <td><img class="image" src="asset/LuBu.webp" alt="LuBu" /></td>
+            <td class="name">Lu<sup>Bu</sup></td>
+            <td class="alias">Furious<sub>Dragon</sub></td>
+            <td class="group">
+              <input type="radio" checked name="lubu" />Human
+              <input type="radio" name="lubu" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">2</td>
+            <td>
+              <img
+                class="image"
+                src="asset/KojiroSasaki.webp"
+                alt="KojiroSasaki"
+              />
+            </td>
+            <td class="name">Kojiro<sup>Sasaki</sup></td>
+            <td class="alias">Humanity's<sub>Strongest Swordsman</sub></td>
+            <td class="group">
+              <input type="radio" checked name="kojiro" />Human
+              <input type="radio" name="kojiro" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">3</td>
+            <td><img class="image" src="asset/Hades.webp" alt="Hades" /></td>
+            <td class="name">Mas<sup>Hades</sup></td>
+            <td class="alias">King of<sub>The Netherworld</sub></td>
+            <td class="group">
+              <input type="radio" name="hades" />Human
+              <input type="radio" checked name="hades" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">4</td>
+            <td>
+              <img
+                class="image"
+                src="asset/JackTheRipper.webp"
+                alt="JackTheRipper"
+              />
+            </td>
+            <td class="name">Jack<sup>The Ripper</sup></td>
+            <td class="alias">The Artist<sub>of Death</sub></td>
+            <td class="group">
+              <input type="radio" checked name="jack" />Human
+              <input type="radio" name="jack" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">5</td>
+            <td>
+              <img class="image" src="asset/Poseidon.webp" alt="Poseidon" />
+            </td>
+            <td class="name">Om<sup>Poseidon</sup></td>
+            <td class="alias">king of<sub>The Seas</sub></td>
+            <td class="group">
+              <input type="radio" name="poseidon" />Human
+              <input type="radio" checked name="poseidon" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">6</td>
+            <td><img class="image" src="asset/Zeus.webp" alt="Zeus" /></td>
+            <td class="name">Kakek<sup>Zeus</sup></td>
+            <td class="alias">King of<sub>Gacor</sub></td>
+            <td class="group">
+              <input type="radio" name="zeus" />Human
+              <input type="radio" checked name="zeus" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">7</td>
+            <td><img class="image" src="asset/Shiva.webp" alt="Shiva" /></td>
+            <td class="name">Shiva<sup>Shiva</sup></td>
+            <td class="alias">Strongest God<sub>of Destruction</sub></td>
+            <td class="group">
+              <input type="radio" name="shiva" />Human
+              <input type="radio" checked name="shiva" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">8</td>
+            <td><img class="image" src="asset/Thor.webp" alt="Thor" /></td>
+            <td class="name">Abang<sup>Thor</sup></td>
+            <td class="alias">Thunder<sub>Berseker</sub></td>
+            <td class="group">
+              <input type="radio" name="thor" />Human
+              <input type="radio" checked name="thor" />Gods
+            </td>
+          </tr>
+          <tr>
+            <td class="no">9</td>
+            <td>
+              <img
+                class="image"
+                src="asset/RaidenTameemon.webp"
+                alt="RaidenTameemon"
+              />
+            </td>
+            <td class="name">Raiden<sup>Tameemon</sup></td>
+            <td class="alias">Strongest Rikishi<sub>in History</sub></td>
+            <td class="group">
+              <input type="radio" checked name="raiden" />Human
+              <input type="radio" name="raiden" />Gods
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

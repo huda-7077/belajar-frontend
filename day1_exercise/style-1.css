@@ -1,0 +1,35 @@
+.picture {
+    max-width: 95%;
+    border-radius: 20px;
+  }
+  .border {
+    border: 5px solid black;
+    max-width: 50%;
+    height: 700px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .text {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+  .small-text {
+    font-size: 30px;
+  }
+  .tombol {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: blue;
+    color: white;
+    font-size: 80px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .tombol:hover {
+    color: red;
+  }
