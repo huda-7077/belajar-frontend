@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID</title>
+    <style>
+      .content {
+        display: grid;
+        column-gap: 10px;
+        margin-bottom: 20px;
+        row-gap: 10px;
+      }
+
+      .content div {
+        background-color: lightskyblue;
+        padding: 30px;
+        border: 1px solid black;
+      }
+
+      /* Mobile Device */
+      @media (max-width: 480px) {
+        .content {
+          grid-template-columns: 1fr;
+        }
+      }
+      /* Dekstop */
+      @media (min-width: 481px) {
+        .content {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div>Kotak 1</div>
+      <div>Kotak 2</div>
+      <div>Kotak 3</div>
+      <div>Kotak 4</div>
+      <div>Kotak 5</div>
+      <div>Kotak 6</div>
+    </div>
+  </body>
+</html>
